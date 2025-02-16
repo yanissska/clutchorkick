@@ -1,7 +1,7 @@
 document.getElementById('discordLogin').addEventListener('click', () => {
     const clientId = '1297223688701345842';
     const redirectUri = encodeURIComponent('https://yanissska.github.io/clutchorkick/');
-    window.location.href = `https://discord.com/oauth2/authorize?client_id=1297223688701345842&response_type=code&redirect_uri=https%3A%2F%2Fyanissska.github.io%2Fclutchorkick%2F&scope=identify`;
+    window.location.href = `https://discord.com/oauth2/authorize?client_id=${clientId}&redirect_uri=${redirectUri}&response_type=token&scope=identify`;
 });
 
 function getDiscordUserInfo(accessToken) {
