@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clutch Or Kick - Inscription</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <div id="login">
+            <h1>Clutch Or Kick</h1>
+            <p>Inscrivez-vous pour participer au tournoi !</p>
+            <button id="discordLogin">Se connecter avec Discord</button>
+        </div>
+        <div id="form" style="display:none;">
+            <h2>Bienvenue, <span id="username"></span>!</h2>
+            <img id="avatar" src="" alt="Avatar" class="avatar">
+            <form id="valorantForm">
+                <label for="valorantPseudo">Pseudo Valorant:</label>
+                <input type="text" id="valorantPseudo" name="valorantPseudo" required placeholder="Pseudo#Tag">
+                <label for="rank">Rank:</label>
+                <select id="rank" name="rank" required>
+                    <option value="Fer 1">Fer 1</option>
+                    <option value="Fer 2">Fer 2</option>
+                    <option value="Fer 3">Fer 3</option>
+                    <option value="Bronze 1">Bronze 1</option>
+                    <option value="Bronze 2">Bronze 2</option>
+                    <option value="Bronze 3">Bronze 3</option>
+                    <option value="Argent 1">Argent 1</option>
+                    <option value="Argent 2">Argent 2</option>
+                    <option value="Argent 3">Argent 3</option>
+                    <option value="Or 1">Or 1</option>
+                    <option value="Or 2">Or 2</option>
+                    <option value="Or 3">Or 3</option>
+                    <option value="Platine 1">Platine 1</option>
+                    <option value="Platine 2">Platine 2</option>
+                    <option value="Platine 3">Platine 3</option>
+                    <option value="Diamant 1">Diamant 1</option>
+                    <option value="Diamant 2">Diamant 2</option>
+                    <option value="Diamant 3">Diamant 3</option>
+                    <option value="Ascendant 1">Ascendant 1</option>
+                    <option value="Ascendant 2">Ascendant 2</option>
+                    <option value="Ascendant 3">Ascendant 3</option>
+                    <option value="Immortal 1">Immortal 1</option>
+                    <option value="Immortal 2">Immortal 2</option>
+                    <option value="Immortal 3">Immortal 3</option>
+                    <option value="Radiant">Radiant</option>
+                    
+                </select>
+                <button type="submit">S'inscrire</button>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
